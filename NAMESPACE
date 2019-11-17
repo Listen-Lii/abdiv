@@ -1,0 +1,3 @@
+importFrom(vegan,diversity)
+importFrom(vegan,specnumber)
+importFrom(vegan,vegdist)
