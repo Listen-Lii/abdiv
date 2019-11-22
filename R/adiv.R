@@ -14,7 +14,7 @@
 
 
 adiv = function(x){
-  requireNamespace()
+  requireNamespace(vegan)
   x[is.na(x)] = 0
   x = t(x)
   Shannon <- diversity(x)

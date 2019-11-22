@@ -15,7 +15,7 @@
 
 
 bdiv = function(x){
-  requireNamespace()
+  requireNamespace(vegan)
   x[is.na(x)]=0
   jaccard.dist = vegdist(t(x), method="jaccard",binary=T)
   ja = as.matrix(jaccard.dist)
