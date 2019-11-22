@@ -10,3 +10,8 @@ adiv(x)
 }
 \description{
 function adiv() get alpha diversity indexes, which including Shannon, Inv_Simpson, Pielou_evenness, and Simpson_evenness indexes.}
+\examples{
+library(vegan)
+data(varespec)
+#adiv(varespec)
+}

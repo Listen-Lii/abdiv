@@ -15,10 +15,11 @@
 
 
 bdiv = function(x){
+  requireNamespace()
   x[is.na(x)]=0
   jaccard.dist = vegdist(t(x), method="jaccard",binary=T)
   ja = as.matrix(jaccard.dist)
   bray.dist = vegdist(t(x), method="bray")
   br = as.matrix(bray.dist)
-  list = list(ja,br)
+  list(ja,br)
 }

@@ -10,3 +10,8 @@ bdiv(x)
 }
 \description{
 function bdiv() get beta diversity indexes, which including jaccard and bray-curtis distances.}
+\examples{
+library(vegan)
+data(varespec)
+#bdiv(varespec)
+}
