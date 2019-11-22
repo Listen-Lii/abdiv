@@ -4,7 +4,6 @@
 #' function bdiv() get beta diversity indexes, which including jaccard and bray-curtis distances.
 #' @param x is the standard OTU table. Rowname is OTU, colname is sample. Data must be anundance. Presence/absence data is not suitable.
 #' examples:
-#' library(vegan)
 #' library(abdiv)
 #' adiv(mtcars)
 
