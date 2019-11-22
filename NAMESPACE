@@ -1,3 +1,4 @@
-importFrom(vegan,diversity)
-importFrom(vegan,specnumber)
-importFrom(vegan,vegdist)
+importFrom("vegan","vegdist")
+importFrom("vegan","diversity")
+importFrom("vegan","specnumber")
+exportPattern("^[[:alpha:]]+")
