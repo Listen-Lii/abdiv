@@ -16,5 +16,5 @@ bdiv = function(x){
   ja = as.matrix(jaccard.dist)
   bray.dist = vegdist(t(x), method="bray")
   br = as.matrix(bray.dist)
-  list(ja,br)
+  list(jaccard=ja,bray=br)
 }
