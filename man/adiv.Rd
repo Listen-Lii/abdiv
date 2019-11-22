@@ -11,6 +11,6 @@ adiv(x)
 Get alpha diversity indexes, including Richness, Shannon, Inv_Simpson, Pielou_evenness, and Simpson_evenness indexes.
 }
 \examples{
-library(vegan)
+library(abdiv)
 adiv(mtcars)
 }

@@ -11,6 +11,6 @@ bdiv(x)
 Get beta diversity indexes, including Bray-Curtis and jaccard index.
 }
 \examples{
-library(vegan)
+library(abdiv)
 bdiv(mtcars)
 }
